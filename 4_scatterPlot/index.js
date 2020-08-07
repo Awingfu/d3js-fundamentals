@@ -8,7 +8,7 @@ const render = data => {
   const yValue = d => d.country
   const margin = {
     top: 50,
-    right: 20,
+    right: 40,
     bottom: 70,
     left: 250,
   };
