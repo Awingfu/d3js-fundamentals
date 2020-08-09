@@ -1,7 +1,15 @@
 const svg = d3.select("svg");
 
-const height = +svg.attr("height");
-const width = +svg.attr("width");
+const height = document.body.clientHeight;
+const width = document.body.clientWidth;
+
+svg
+    .attr('width', width)
+    .attr('height', height)
+  .append('rect')
+    .attr('width', width)
+    .attr('height', height)
+    .attr('rx', 40)
 
 // const projection = d3.geoMercator();
 const projection = d3.geoNaturalEarth1();
