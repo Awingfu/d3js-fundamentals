@@ -1,9 +1,13 @@
-text { 
-  font-size: 2em;
-  font-family: sans-serif;
-  text-anchor: middle;
+.sphere {
+  fill: blue
 }
 
-rect {
-  fill: beige;
+.country {
+  fill: lightgreen;
+  stroke: black;
+  stroke-width: 0.1px;
+}
+
+.country:hover {
+  fill:red;
 }
